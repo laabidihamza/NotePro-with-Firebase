@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "521164451478",
+    "project_id": "noteapp-with-firebase-e36cc",
+    "storage_bucket": "noteapp-with-firebase-e36cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521164451478:android:5c07f21d443799e760dcb7",
+        "android_client_info": {
+          "package_name": "easy.tuto.notespro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521164451478-3t16scq0pc74c2pi6lj27l20n1096fff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "easy.tuto.notespro",
+            "certificate_hash": "327e6aeb610cf75e9d709bf94c3b9d6992c798fd"
+          }
+        },
+        {
+          "client_id": "521164451478-cl884t4r6chdkaojgldgsc11jd33s82j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzyG5RMtOmswIav6EHePJFgARLDU1EFJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521164451478-cl884t4r6chdkaojgldgsc11jd33s82j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
