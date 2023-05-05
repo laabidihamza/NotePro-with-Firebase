@@ -94,21 +94,19 @@
 
             android:layout_width="match_parent"
             android:layout_height="64dp"
-<<<<<<< HEAD
-=======
+
+
             android:layout_gravity="center"
-            android:background="@drawable/square_button"
->>>>>>> acd792b2811d7bef2928e395093f95a1bb214c05
+
+
             android:layout_marginTop="12dp"
             android:background="@drawable/square_button"
             android:text="Create Account"
             android:textColor="@color/title_clr"
             android:textSize="16sp"
             app:backgroundTint="@color/btn_clr" />
-<<<<<<< HEAD
 
-=======
->>>>>>> acd792b2811d7bef2928e395093f95a1bb214c05
+
 
         <ProgressBar
             android:layout_width="24dp"
