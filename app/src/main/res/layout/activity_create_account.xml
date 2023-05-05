@@ -91,15 +91,24 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/create_account_btn"
-            android:layout_width="350dp"
+
+            android:layout_width="match_parent"
             android:layout_height="64dp"
+<<<<<<< HEAD
+=======
             android:layout_gravity="center"
             android:background="@drawable/square_button"
+>>>>>>> acd792b2811d7bef2928e395093f95a1bb214c05
             android:layout_marginTop="12dp"
+            android:background="@drawable/square_button"
             android:text="Create Account"
             android:textColor="@color/title_clr"
             android:textSize="16sp"
             app:backgroundTint="@color/btn_clr" />
+<<<<<<< HEAD
+
+=======
+>>>>>>> acd792b2811d7bef2928e395093f95a1bb214c05
 
         <ProgressBar
             android:layout_width="24dp"
@@ -122,13 +131,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already have an account? "/>
+            android:text="Already have an account? "
+            android:textSize="16sp" />
+
         <TextView
+            android:id="@+id/login_text_view_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:id="@+id/login_text_view_btn"
-            android:text="Login"/>
+            android:text="Login"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
