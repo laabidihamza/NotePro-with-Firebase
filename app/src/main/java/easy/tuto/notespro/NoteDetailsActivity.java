@@ -75,10 +75,10 @@ public class NoteDetailsActivity extends AppCompatActivity {
     void saveNoteToFirebase(Note note){
         DocumentReference documentReference;
         if(isEditMode){
-            //update the note
+
             documentReference = Utility.getCollectionReferenceForNotes().document(docId);
         }else{
-            //create new note
+
             documentReference = Utility.getCollectionReferenceForNotes().document();
         }
 
@@ -88,11 +88,11 @@ public class NoteDetailsActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
-                    //note is added
-                    Utility.showToast(NoteDetailsActivity.this,"Note added successfully");
+
+                    Utility.showToast(NoteDetailsActivity.this,"Your diary is added successfully");
                     finish();
                 }else{
-                    Utility.showToast(NoteDetailsActivity.this,"Failed while adding note");
+                    Utility.showToast(NoteDetailsActivity.this,"Failed while adding the diary");
                 }
             }
         });
@@ -106,11 +106,11 @@ public class NoteDetailsActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if(task.isSuccessful()){
-                    //note is deleted
-                    Utility.showToast(NoteDetailsActivity.this,"Note deleted successfully");
+
+                    Utility.showToast(NoteDetailsActivity.this,"Diary deleted successfully");
                     finish();
                 }else{
-                    Utility.showToast(NoteDetailsActivity.this,"Failed while deleting note");
+                    Utility.showToast(NoteDetailsActivity.this,"Failed while deleting the diary");
                 }
             }
         });
